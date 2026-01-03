@@ -1,0 +1,29 @@
+.header {
+  background-color: rgb(101, 181, 191);
+  width: 100%;
+  border-radius: 0 0 10px 10px;
+  cursor: pointer;
+}
+
+.header h1 {
+  text-align: center;
+  padding: 10px 0 10px 0;
+
+  font-size: 1.5em;
+}
+
+/* Bottom Banner */
+
+.bottom-banner {
+  background-color: rgb(244, 233, 192); /* Light background */
+  padding: 0px;
+  margin: 0;
+  border-radius: 0 0 10px 10px;
+  text-align: center;
+}
+
+.bottom-banner p {
+  margin: 0;
+  color: rgb(101, 181, 191); /* Dark text for contrast */
+  font-weight: bold;
+}

@@ -1,0 +1,64 @@
+.title {
+  animation: slideIn 0.5s ease-in-out;
+  font-size: 1.3em;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.explore-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.beach-boxes {
+  max-width: var(--max-width);
+
+  margin: 10px auto;
+  align-items: center;
+  width: 100vw;
+}
+
+.beach-box {
+  width: 100%;
+  height: 150px;
+
+  box-sizing: border-box;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch; /* ensures both sides fill the height */
+  overflow: hidden;
+  position: relative;
+
+  border: 5px solid var(--primary);
+  margin-bottom: 24px;
+}
+
+.beach-text {
+  margin: 5px 0 0 5px;
+}
+
+.beach-box h2 {
+  font-size: 1.1em;
+}
+
+.beach-caption {
+  line-height: 100%;
+}
+
+.beach-image {
+  width: 150px; /* Fixed width for all images */
+  height: 100%; /* Fill the container height */
+  object-fit: cover; /* No stretching, crop if needed */
+  display: block;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100vw);
+  }
+  to {
+    transform: translateX(0);
+  }
+}

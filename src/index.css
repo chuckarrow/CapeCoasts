@@ -1,0 +1,42 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  overflow-x: hidden;
+
+  --primary: rgb(244, 233, 192);
+  --secondary: rgb(101, 181, 191);
+
+  --max-width: 600px;
+}
+
+body {
+  margin: 0;
+
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-family: "BBH Bartle", sans-serif;
+  color: rgb(244, 233, 192);
+}
+
+p {
+  margin: 0;
+  font-family: "BBH Bogle", sans-serif;
+  color: rgb(244, 233, 192);
+}
